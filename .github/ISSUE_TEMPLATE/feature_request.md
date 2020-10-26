@@ -5,7 +5,7 @@ about: Suggest a change or new feature in tidymodels
 
 ### Tips for a helpful feature request: 
 
- * See our [contributing guidelines](https://github.com/tidyverse/tune/blob/master/.github/CONTRIBUTING.md) and [development guide](https://www.tidymodels.org/contribute/) for more on design goals and how to contribute.
+ * See our [contributing guidelines](https://github.com/tidymodels/tidymodels/blob/master/.github/CONTRIBUTING.md) and [development guide](https://www.tidymodels.org/contribute/) for more on design goals and how to contribute.
 
  * Please include a **minimal reproducible example,** a reprex, to demonstrate your feature idea when appropriate. If you've never heard of a reprex before, start by reading "[What is a reprex](https://github.com/tidyverse/reprex#what-is-a-reprex)" and following the advice there. A reproducible example can be effective at demonstrating the case for a new feature. 
 
