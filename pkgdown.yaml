@@ -50,12 +50,12 @@ jobs:
         run: R CMD INSTALL .
 
       - name: Build site
-        if: github.ref != 'refs/heads/master'
+        if: github.event_name == 'pull_request'
         run: |
           Rscript -e 'pkgdown::build_site()'
 
       - name: Deploy package
-        if: github.ref == 'refs/heads/master'
+        if: github.event_name == 'push'
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
